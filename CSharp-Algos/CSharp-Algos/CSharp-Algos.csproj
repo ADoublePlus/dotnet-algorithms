@@ -38,6 +38,8 @@
   <ItemGroup>
     <Compile Include="DataStructures\MinHeap.cs" />
     <Compile Include="IO\Scanner.cs" />
+    <Compile Include="Trees\BinaryTree.cs" />
+    <Compile Include="Trees\Traversal.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
