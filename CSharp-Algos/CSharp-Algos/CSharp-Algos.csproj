@@ -38,6 +38,7 @@
   <ItemGroup>
     <Compile Include="DataStructures\MinHeap.cs" />
     <Compile Include="IO\Scanner.cs" />
+    <Compile Include="Sorting\Sort.cs" />
     <Compile Include="Strings\Hashing.cs" />
     <Compile Include="Strings\Traversal.cs" />
     <Compile Include="Trees\BinaryTree.cs" />
