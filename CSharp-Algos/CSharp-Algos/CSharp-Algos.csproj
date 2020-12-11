@@ -39,6 +39,7 @@
     <Compile Include="DataStructures\MinHeap.cs" />
     <Compile Include="Geometry\Line.cs" />
     <Compile Include="Geometry\Shape.cs" />
+    <Compile Include="Graphs\Graph.cs" />
     <Compile Include="IO\Scanner.cs" />
     <Compile Include="Misc\Pattern.cs" />
     <Compile Include="Searching\Search.cs" />
