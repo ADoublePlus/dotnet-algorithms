@@ -34,12 +34,14 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataStructures\MinHeap.cs" />
     <Compile Include="Geometry\Line.cs" />
     <Compile Include="Geometry\Shape.cs" />
     <Compile Include="Graphs\Graph.cs" />
+    <Compile Include="Graphs\Traversal.cs" />
     <Compile Include="IO\Scanner.cs" />
     <Compile Include="Misc\Pattern.cs" />
     <Compile Include="Searching\Search.cs" />
@@ -48,6 +50,9 @@
     <Compile Include="Strings\Traversal.cs" />
     <Compile Include="Trees\BinaryTree.cs" />
     <Compile Include="Trees\Traversal.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
